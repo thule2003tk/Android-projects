@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhiệt độ Fahrenheit -->
+    <EditText
+        android:id="@+id/editTextFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fahrenheit"
+        android:inputType="numberDecimal" />
+
+    <!-- Nhiệt độ Celsius -->
+    <EditText
+        android:id="@+id/editTextCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celsius"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+    <!-- Các nút chuyển đổi -->
+    <Button
+        android:id="@+id/btnToCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Celsius"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnToFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Fahrenheit"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
